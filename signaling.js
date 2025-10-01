@@ -111,7 +111,7 @@ function handleUserLeaving(socket, roomId) {
   }
 }
 
-const PORT = process.env.PORT || 3007;
+const PORT = process.env.PORT || 3006;
 server.listen(PORT, () => {
   console.log(` Signaling server running on port ${PORT}`);
 });
